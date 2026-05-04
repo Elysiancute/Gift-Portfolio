@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gift Mark | Building Material Specialist</title>
+    <meta name="description" content="Gift Mark - High-quality building materials in Nung udoe IBesikpo, Akwa ibom state.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav id="navbar">
+        <div class="nav-container">
+            <a href="#home" class="logo">Gift<span>Mark</span></a>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#products">Products</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <header id="home" class="hero">
+        <div class="hero-content fade-in">
+            <h1>Building Your Dreams With <span>Quality Materials</span></h1>
+            <p>Premium timber, cement, roofing, and construction materials supplied straight from the heart of Akwa Ibom.</p>
+            <a href="#contact" class="btn primary-btn">Get a Quote</a>
+        </div>
+        <div class="hero-image-container slide-in-right">
+            <div class="image-wrapper">
+                <img src="IMG_20221105_192215_384.jpg" alt="Gift Mark - Building Material Specialist" id="hero-img">
+                <div class="experience-badge">
+                    <span class="number">100%</span>
+                    <span class="text">Quality<br>Assured</span>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <section id="about" class="about-section">
+        <div class="section-title fade-in-up">
+            <h2>About The Business</h2>
+            <div class="underline"></div>
+        </div>
+        <div class="about-content">
+            <div class="about-text fade-in-up">
+                <h3>Hi, I'm Gift Mark</h3>
+                <p>Welcome to my Building Material Business. I specialize in providing top-tier construction and building materials to contractors, builders, and homeowners in Akwa Ibom and beyond.</p>
+                <p>Located conveniently at the Timber Market, we ensure that you have access to the finest wood, durable cements, and reliable tools to make your construction projects a massive success.</p>
+                <ul class="features-list">
+                    <li>✓ Premium Quality Timber</li>
+                    <li>✓ Affordable Pricing</li>
+                    <li>✓ Reliable Sourcing</li>
+                    <li>✓ Excellent Customer Service</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <section id="products" class="products-section">
+        <div class="section-title fade-in-up">
+            <h2>Our Products</h2>
+            <div class="underline"></div>
+        </div>
+        <div class="products-grid">
+            <div class="product-card fade-in-up">
+                <div class="card-icon">🪵</div>
+                <h3>Premium Timber</h3>
+                <p>High-quality treated and untreated wood for all framing, roofing, and finishing needs.</p>
+            </div>
+            <div class="product-card fade-in-up" style="transition-delay: 0.1s;">
+                <div class="card-icon">🧱</div>
+                <h3>Cement & Blocks</h3>
+                <p>Strong, durable, and weather-resistant materials to form the solid foundation of any structure.</p>
+            </div>
+            <div class="product-card fade-in-up" style="transition-delay: 0.2s;">
+                <div class="card-icon">🏠</div>
+                <h3>Roofing Materials</h3>
+                <p>Long-lasting roofing sheets, aluminum, and accessories to protect your buildings.</p>
+            </div>
+            <div class="product-card fade-in-up" style="transition-delay: 0.3s;">
+                <div class="card-icon">🛠️</div>
+                <h3>Tools & Hardware</h3>
+                <p>A wide selection of nails, hammers, saws, and essential construction equipment.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact-section">
+        <div class="contact-container fade-in-up">
+            <div class="contact-info">
+                <h2>Visit Us Today</h2>
+                <p>Ready to start your next big project? Drop by or get in touch for the best quotes on building materials.</p>
+                
+                <div class="info-item">
+                    <span class="icon">📍</span>
+                    <div>
+                        <h4>Location</h4>
+                        <p>NO 7 Timber Market Road,<br>Nung Udoe IBesikpo,<br>Akwa Ibom State.</p>
+                    </div>
+                </div>
+                
+                <div class="info-item">
+                    <span class="icon">📞</span>
+                    <div>
+                        <h4>Phone</h4>
+                        <p>+234 (0) 800 000 0000</p>
+                    </div>
+                </div>
+                
+                <div class="info-item">
+                    <span class="icon">✉️</span>
+                    <div>
+                        <h4>Email</h4>
+                        <p>info@giftmarkmaterials.com</p>
+                    </div>
+                </div>
+            </div>
+            <div class="contact-form-container">
+                <form id="contact-form">
+                    <h3>Send a Message</h3>
+                    <div class="form-group">
+                        <input type="text" id="name" placeholder="Your Name" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" id="email" placeholder="Your Email" required>
+                    </div>
+                    <div class="form-group">
+                        <textarea id="message" rows="5" placeholder="Your Requirements" required></textarea>
+                    </div>
+                    <button type="submit" class="btn primary-btn submit-btn">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-logo">Gift<span>Mark</span></div>
+            <p>&copy; <span id="year"></span> Gift Mark Building Materials. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
